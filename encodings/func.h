@@ -2,6 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <string>
+#include <Windows.h>
 using namespace std;
 
 
@@ -22,3 +23,7 @@ Type GetNumber(const char* S)
 string MyCodeShifr(string str);
 
 string MyCodeDeshifr(string str);
+
+string ShiftCezar(string str, int shift);
+
+string DeShiftCezar(string str, int shift);
